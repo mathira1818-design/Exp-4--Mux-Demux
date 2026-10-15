@@ -16,7 +16,6 @@ Boolean Functions
 
 ## Design / RTL Program
 ```
-// gedit mux_demux.v
 module mux2to1 (
     input  wire A,      // input line 0
     input  wire B,      // input line 1
@@ -38,8 +37,6 @@ endmodule
 ```
 
 ## Testbench Program
-
-// gedit tb4.v
 module tb4;
     reg  A, B, S, D;
     wire Y;
@@ -84,7 +81,7 @@ module tb4;
  
         #10 $finish;
     end
-    endmodule
+endmodule
 
 ## Truth Table
 
@@ -149,8 +146,9 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
 ## Output
+<img width="1824" height="977" alt="Screenshot 2026-10-14 133121" src="https://github.com/user-attachments/assets/08f9c15c-5444-456f-9d4f-093951b1392b" />
+<img width="1835" height="943" alt="Screenshot 2026-10-14 133205" src="https://github.com/user-attachments/assets/790bf575-3784-4eba-808e-643e590c42f3" />
 
-<img width="611" height="321" alt="image" src="https://github.com/user-attachments/assets/498cca0d-185c-4301-8808-399e9a36c497" />
 
 ## Viva-Voce Questions
 
